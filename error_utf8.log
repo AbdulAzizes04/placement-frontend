@@ -1,0 +1,74 @@
+﻿
+> frontend@0.1.0 dev
+> next dev -p 3001
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but 
+it may not be 
+correct.
+At C:\Program Files\n
+odejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (ΓÜá War   
+ ning: Ne...not b    
+e correct.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ We detected 
+multiple lockfiles 
+and selected the 
+directory of D:\proje
+cts\Placement 
+Support Management Sy
+stem\package-lock.jso
+n as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * D:\projects\Plac
+ement Support 
+Management System\fro
+ntend\package-lock.js
+on
+
+Γû▓ Next.js 16.1.4 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.1.6:3001
+- Environments: .env.local
+
+Γ£ô Starting...
+Γ¿» Unable to 
+acquire lock at D:\pr
+ojects\Placement 
+Support Management Sy
+stem\frontend\.next\d
+ev\lock, is another 
+instance of next dev 
+running?
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h
