@@ -17,7 +17,7 @@ export function Sidebar() {
         {
             label: "Dashboard",
             icon: LayoutDashboard,
-            href: `/${user.role.toLowerCase()}/dashboard`,
+            href: user.role === 'ADMIN' || user.role === 'TPO' ? '/admin/dashboard' : `/${user.role.toLowerCase()}/dashboard`,
             roles: ["STUDENT", "ADMIN", "STAFF", "TPO"], // Redirect handles path but link needs to be correct
         },
         {
